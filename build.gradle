@@ -19,6 +19,8 @@ dependencies {
 	runtimeOnly 'mysql:mysql-connector-java'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation group: 'joda-time', name: 'joda-time', version: '2.10.10'
+
 }
 
 test {
