@@ -17,7 +17,7 @@ public class usuarios {
     private String apellido;
     private String correo;
     private String contrasena;
-    private Date fechanac;
+    private String fechanac;
     private Integer rol;
 
 //Tenemos que crear Geters and Setters para obtener variables privadas
@@ -63,11 +63,11 @@ public class usuarios {
         this.contrasena = contrasena;
     }
 
-    public Date getFechanac() {
+    public String getFechanac() {
         return fechanac;
     }
 
-    public void setFechanac(Date fechanac) {
+    public void setFechanac(String fechanac) {
         this.fechanac = fechanac;
     }
 
